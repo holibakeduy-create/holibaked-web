@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Holi Baked — Cookies, focaccia y brioche artesanales en Las Piedras</title>
+<meta name="description" content="Cookies, focaccia y brioche hechos a mano en Las Piedras, Uruguay. Pedí online y pagá con Mercado Pago.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Karla:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="#inicio" class="nav__logo">
+      <svg class="seal-mini" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="46" fill="none" stroke="#C1693B" stroke-width="2"/>
+        <circle cx="50" cy="50" r="38" fill="none" stroke="#C1693B" stroke-width="1"/>
+        <text x="50" y="54" text-anchor="middle" font-family="Fraunces, serif" font-size="13" fill="#C1693B" font-weight="700">HB</text>
+      </svg>
+      Holi Baked
+    </a>
+    <button class="nav__cart-btn" id="cart-fab-top" aria-label="Ver carrito">
+      🛒<span class="nav__cart-count" id="cart-count-top">0</span>
+    </button>
+  </div>
+</nav>
+
+<header class="hero" id="inicio">
+  <div class="wrap">
+    <svg class="hero__seal" viewBox="0 0 200 200" aria-hidden="true">
+      <defs>
+        <path id="sealcircle" d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0" />
+      </defs>
+      <circle cx="100" cy="100" r="92" fill="none" stroke="#C99A3E" stroke-width="1.5"/>
+      <circle cx="100" cy="100" r="60" fill="none" stroke="#C99A3E" stroke-width="1"/>
+      <text font-family="Karla, sans-serif" font-size="11.5" font-weight="700" letter-spacing="3" fill="#C99A3E">
+        <textPath href="#sealcircle" startOffset="0%">HOLI BAKED • LAS PIEDRAS • HECHO A MANO •</textPath>
+      </text>
+      <text x="100" y="106" text-anchor="middle" font-family="Fraunces, serif" font-size="30" fill="#C1693B">🍪</text>
+    </svg>
+    <h1>Holi Baked</h1>
+    <p class="hero__tagline">Cookies, focaccia y brioche hechos a mano en Las Piedras. Sin apuro. Con obsesión.</p>
+    <div class="hero__ctas">
+      <a href="#menu" class="btn btn--primary">Ver el menú</a>
+      <a href="https://instagram.com/holibaked.uy" target="_blank" rel="noopener" class="btn btn--ghost">Instagram</a>
+    </div>
+  </div>
+</header>
+
+<section class="story" id="nosotros">
+  <div class="wrap story__inner">
+    <p class="eyebrow">Por qué existe Holi Baked</p>
+    <!-- ✏️ Nany:
