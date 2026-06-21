@@ -1,0 +1,27 @@
+/* ============================================
+   HOLI BAKED — design tokens
+   Paleta sacada de la guía de fotografía propia:
+   cartulina crema, golden hour, faja sage, lifted blacks.
+   ============================================ */
+:root{
+  --cream:        #F3EAD9;
+  --cream-light:  #FBF6EC;
+  --ink:          #2B2018;   /* negro "lifted", nunca puro negro */
+  --ink-soft:     #5B4D40;
+  --terracota:    #C1693B;   /* caramelo salado — acento principal / CTA */
+  --terracota-deep:#A2532C;
+  --sage:         #8C9A74;   /* la faja sage de tu packaging */
+  --sage-deep:    #6F7C5B;
+  --gold:         #C99A3E;   /* sello / detalles */
+  --line:         rgba(43,32,24,0.12);
+  --shadow:       0 12px 28px rgba(43,32,24,0.12);
+
+  --font-display: 'Fraunces', 'Georgia', serif;
+  --font-body:    'Karla', 'Helvetica Neue', sans-serif;
+
+  --radius: 18px;
+  --radius-sm: 10px;
+  --maxw: 1080px;
+}
+
+*{ box-si
