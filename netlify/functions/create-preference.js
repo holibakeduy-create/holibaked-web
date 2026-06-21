@@ -82,4 +82,4 @@ exports.handler = async (event) => {
     console.error('Error inesperado:', err);
     return { statusCode: 500, body: JSON.stringify({ error: 'Error inesperado generando el pago.' }) };
   }
-};s23
+};
